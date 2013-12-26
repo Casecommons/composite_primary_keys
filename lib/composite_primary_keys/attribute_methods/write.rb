@@ -24,6 +24,7 @@ module ActiveRecord
                 "attributes on a model is deprecated. Please just use `attr_writer` etc."
             )
           end
+          @attributes = @attributes.dup if @attributes.frozen?
           @attributes[attr_name] = type_cast_attribute_for_write(column, value)
         end
       end
