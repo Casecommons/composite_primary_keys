@@ -76,7 +76,6 @@ require 'composite_primary_keys/composite_predicates'
 require 'composite_primary_keys/fixtures'
 require 'composite_primary_keys/relation'
 require 'composite_primary_keys/sanitization'
-require 'composite_primary_keys/attribute_set/builder'
 require 'composite_primary_keys/attribute_methods'
 require 'composite_primary_keys/version'
 
